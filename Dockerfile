@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.14
+FROM node
 WORKDIR /app
 ADD . /app
 RUN npm install
